@@ -5,6 +5,10 @@ from app.forms import StringListField
 
 #Fields
 class BelovedListField(ListField):
+    """ Base ListField for the project
+        this one fixes listfields problems in admin
+        (thanks to jonashaag gist: 1200165)
+    """
     def formfield(self, **kwargs):
         return models.Field.formfield(self, StringListField, **kwargs)
 
