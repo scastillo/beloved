@@ -13,10 +13,12 @@ Example request: http://cl.ly/15301S0Q1H3f0l0l3b20
 
 
 **Beloved items:**
-          /api/v1/beloveds/
+    /api/v1/beloveds/
 
 
-Get paginated items: curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/
+Get paginated items: 
+
+```curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/
           
 {
   "meta": {
@@ -45,8 +47,11 @@ Get paginated items: curl -X GET -H "Accept: application/json" localhost:8888/ap
     }
   ]
 }
+```
 
-Get one item: curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/4f3e191faeef8fb793000002/
+Get one item: 
+
+```curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/4f3e191faeef8fb793000002/
 {
   "name": "Youtube background pattern",
   "public_love_rate": 0,
@@ -55,3 +60,4 @@ Get one item: curl -X GET -H "Accept: application/json" localhost:8888/api/v1/be
   "id": "4f3e191faeef8fb793000002",
   "resource_uri": "/api/v1/beloveds/4f3e191faeef8fb793000002/"
 }
+```
