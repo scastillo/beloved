@@ -3,7 +3,7 @@ from django.contrib import admin
 from tastypie.api import Api
 admin.autodiscover()
 
-from app.api import BelovedResource
+from beloved.api import BelovedResource
 
 beloved_api = Api(api_name='v1')
 beloved_api.register(BelovedResource())

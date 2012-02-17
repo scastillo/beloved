@@ -123,7 +123,8 @@ INSTALLED_APPS = (
     'djangotoolbox',
     'permission_backend_nonrel',
     'tastypie',
-    'app',
+    'beloved.core',
+    'beloved.api',
 )
 
 # A sample logging configuration. The only tangible logging

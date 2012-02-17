@@ -1,7 +1,7 @@
 from tastypie import fields
 from tastypie.resources import ModelResource
 
-from app.models import Beloved
+from beloved.core.models import Beloved
 
 class BelovedResource(ModelResource):
     """

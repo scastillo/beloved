@@ -1,7 +1,7 @@
 from django.db import models
 from djangotoolbox.fields import ListField
 
-from app.forms import StringListField
+from beloved.core.forms import StringListField
 
 #Fields
 class BelovedListField(ListField):
