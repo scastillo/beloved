@@ -9,7 +9,7 @@ BTW it helps me keeping track of my beloved stuff eg. my tshirt, tastypie, pizza
 API
 ----
 
-Example request: http://cl.ly/242t1C3o1X2U2k1Y2r3O
+Example request: http://cl.ly/15301S0Q1H3f0l0l3b20
 
 
 **Beloved items:**
