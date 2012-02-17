@@ -18,8 +18,7 @@ Example request: http://cl.ly/15301S0Q1H3f0l0l3b20
 
 Get paginated items: 
 
-```curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/
-          
+```curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/ 
 {
   "meta": {
     "previous": null,
