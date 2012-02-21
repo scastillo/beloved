@@ -149,3 +149,7 @@ LOGGING = {
         },
     }
 }
+
+
+#TEST_RUNNER = 'mongorunner.TestRunner'
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'

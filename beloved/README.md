@@ -51,6 +51,7 @@ Get paginated items:
 Get one item: 
 
 ```curl -X GET -H "Accept: application/json" localhost:8888/api/v1/beloveds/4f3e191faeef8fb793000002/
+
 {
   "name": "Youtube background pattern",
   "public_love_rate": 0,

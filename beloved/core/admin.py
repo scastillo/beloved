@@ -8,5 +8,6 @@ def tags(instance):
 
 class BelovedAdmin(admin.ModelAdmin):
     list_display = ['name', tags]
+    exclude = ('loc',)
 
 admin.site.register(Beloved, BelovedAdmin)
